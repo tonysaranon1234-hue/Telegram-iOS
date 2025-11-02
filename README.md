@@ -1,30 +1,30 @@
 # Telegram iOS Source Code Compilation Guide
-
+n
 We welcome all developers to use our API and source code to create applications on our platform.
 There are several things we require from **all developers** for the moment.
-
+n
 # Creating your Telegram Application
-
+n
 1. [**Obtain your own api_id**](https://core.telegram.org/api/obtaining_api_id) for your application.
 2. Please **do not** use the name Telegram for your app — or make sure your users understand that it is unofficial.
 3. Kindly **do not** use our standard logo (white paper plane in a blue circle) as your app's logo.
 3. Please study our [**security guidelines**](https://core.telegram.org/mtproto/security_guidelines) and take good care of your users' data and privacy.
 4. Please remember to publish **your** code too in order to comply with the licences.
-
+n
 # Quick Compilation Guide
-
+n
 ## Get the Code
-
+n
 ```
 git clone --recursive -j8 https://github.com/TelegramMessenger/Telegram-iOS.git
 ```
-
+n
 ## Setup Xcode
-
+n
 Install Xcode (directly from https://developer.apple.com/download/applications or using the App Store).
-
+n
 ## Adjust Configuration
-
+n
 1. Generate a random identifier:
 ```
 openssl rand -hex 8
